@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #000000;
+    font-family: sans-serif;
+    outline: none;
+}
+.Upcontainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .imgs {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+  h2{
+      text-align: center;
+      justify-content: center;
+      color: white;
+      padding: 100px;
+  }
